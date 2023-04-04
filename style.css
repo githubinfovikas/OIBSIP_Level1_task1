@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #342f2f;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0 15vw;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav img{
+    width: 25px;
+    height: 25px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 40px;
+}
+nav ul li a{
+    /* font-weight: 700px; */
+    font-size: 20px;
+}
+
+.nav-right-section {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-right-section button{
+    background: black;
+    border-radius: 8px;
+    font-size: 20px;
+    padding:10px 60px ;
+}
+
+main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+.mainImg {
+    width: 200px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+}
+
+.main{
+    margin-left: 180px;
+}
+
+.onEarImg{
+    width: 320px;
+    margin-left: 50px;
+}
+
+.main h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.main h4{
+    font-size: 16px;
+    margin-bottom:25px;
+}
+
+.main p{
+    width: 65%;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.shopping-bag-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: black;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+
+.shopping-bag-section img{
+    width: 15px;
+    background-color: transparent;
+}
+
+.shopping-bag-section p{
+    margin-bottom: 0;
+    color: white;
+    background-color: transparent;
+}
+
+.shopping-bag-section span{
+    background-color: transparent;
+}
+
+.social-media-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+    position: relative;
+    top: -50px;
+    margin-bottom: 40px;
+
+}
+
+.social-media-section img {
+    scale:0.8;
+}
+
+.specification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specification-logo, 
+.case-logo{
+    scale: 0.8;
+    margin-bottom: 20px;
+}
+
+.specification-list{
+    display: flex;
+}
+
+.specification-list img{
+    scale:0.8;
+}
+
+/* .specification-list-items div{
+    margin-bottom: 20px;
+} */
+
+/* .specification-list-items div img{
+    scale:0.8;
+} */
+
+/* .specification-list-items div p{
+    font-size: 15px;
+} */
+
+.specification-list-items div p:last-child{
+    columns: white;
+    font-size: 12px;
+    margin-top: 5px;
+    width: 70%;
+}
+
+.specification-list-items div:first-child,
+.specification-list-items div:last-child{
+    margin-left: 30px;
+}
+
+
+.case {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.case-item{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.case-item-img {
+    scale: 0.8;
+}
+
+.case-item-img {
+    width: 20%;
+}
+
+.case-item div p:first-child {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.case-item div p:last-child img{
+    scale: 0.8;
+    background-color: transparent;
+}
+
+.case-item div p:last-child{
+    width: fit-content;
+    background: black;
+    border-radius: 8px;
+    display: flex;
+    align-items: centerd;
+    gap: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.buy-product {
+    background: black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 70px;
+    padding: 40px 0;
+}
+
+.buy-product div,
+.buy-product p,
+.buy-product h3,
+.buy-product img {
+    background-color: transparent;
+}
+
+.buy-product div{
+    width: 50%;
+}
+
+.buy-product div h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.buy-product div p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+
+.buy-product div div{
+    display: flex;
+    align-items: center;
+    background: black;
+    padding: 10px 20px;
+}
+
+.buy-product div div img{
+    scale: 0.8;
+    margin-left: 10px;
+}
+
+.buy-product div div a{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: white;
+    background: transparent;
+}
+
+
+
+footer{
+    margin: 100px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-logo{
+    scale: 0.8;
+}
+ul li a{
+    font-size: 12px;
+    color: white;
+}
+
+ul li:first-child a{
+    font-size: 16px;
+    color: white;
+}
+
+ul li:first-child{
+    margin-bottom: 10px;
+}
+
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+}
+
+.subscribe-button{
+    background: black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe-button img{
+    scale: 0.8;
+}
+
+.subscribe-button p{
+    font-size: 15px;
+    background: transparent;
+  }
+  
+  .footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+    background: transparent;
+  }
+  
+  .arrow-up{
+    position: absolute;
+    right: -160px;
+    scale: 0.8;
+  }
